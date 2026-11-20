@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lafam Coffee Shop - Kopi Lokal Pilihan dengan Suasana Hangat">
+    <title>Lafam Coffee Shop | Kopi & Cerita</title>
+    <!-- Menghubungkan ke file CSS eksternal di dalam bucket yang sama -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">Lafam<span>Coffee</span>.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#menu">Menu Andalan</a></li>
+                    <li><a href="#lokasi">Lokasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Seduhan Hangat untuk Setiap Cerita</h1>
+            <p>Biji kopi nusantara pilihan yang disangrai segar setiap minggu untuk menemani produktivitas dan waktu santai Anda.</p>
+            <a href="#menu" class="btn-primary">Lihat Menu Kami</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Menu Favorit Lafam</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <h3>Kopi Susu Lafam</h3>
+                    <p class="desc">Espresso arabika dipadukan dengan susu segar dan gula aren organik.</p>
+                    <span class="price">Rp 18.000</span>
+                </div>
+                <div class="menu-card">
+                    <h3>V60 Manual Brew</h3>
+                    <p class="desc">Seduhan manual single-origin Gayo atau Toraja dengan karakter rasa fruity.</p>
+                    <span class="price">Rp 22.000</span>
+                </div>
+                <div class="menu-card">
+                    <h3>Matcha Espresso Fusion</h3>
+                    <p class="desc">Perpaduan unik antara Uji Matcha Jepang, susu creamy, dan shot espresso.</p>
+                    <span class="price">Rp 25.000</span>
+                </div>
+                <div class="menu-card">
+                    <h3>Croissant Butter</h3>
+                    <p class="desc">Pastry renyah berlapis mentega hangat, teman terbaik untuk kopi hitam.</p>
+                    <span class="price">Rp 15.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi & Jam Operasional -->
+    <section id="lokasi" class="info-section">
+        <div class="container info-grid">
+            <div class="info-box">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Jumat: 07.00 - 22.00 WIB</p>
+                <p>Sabtu - Minggu: 08.00 - 23.00 WIB</p>
+            </div>
+            <div class="info-box">
+                <h3>Kunjungi Kedai Kami</h3>
+                <p>Jl. Melati No. 45, Kota Anda</p>
+                <p>WhatsApp: 0812-3456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lafam Coffee Shop. Hosted on Cloud Static Infrastructure.</p>
+        </div>
+    </footer>
+</body>
+</html>
 
